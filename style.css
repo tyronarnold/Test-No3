@@ -1,0 +1,354 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+}
+
+header {
+    background: #000;
+    padding: 1em 0;
+}
+
+.nav-color {
+    color: azure;
+    background-color: black;
+}
+
+.logo {
+    width: 120px;
+    height: 100%;
+    background: transparent;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+#nav-text {
+    color: white;
+    width: 100%;
+    min-width: 4.0vw;
+    border-left: 1px solid rgb(77, 75, 75);
+    align-items: center;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.text-center {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.mynav a {
+    color: white;
+}
+
+.signin {
+    display: block;
+    min-width: 10vw;
+    border-left: 1px solid white;
+}
+
+.search {
+    margin-left: -40px;
+    margin-top: 10px;
+    color: black;
+}
+
+.search-form {
+    border-radius: 0px;
+    min-width: 100px;
+}
+
+.search-margin {
+    min-width: 100px;
+}
+
+div#line::before {
+    display: block;
+    content: '';
+    border-left: #f3f31f solid;
+    height: 20px;
+    border-width: 4px;
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    z-index: 2;
+}
+
+#line {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+div#line2::before {
+    display: block;
+    content: '';
+    border-left: #f3f31f solid;
+    height: 20px;
+    border-width: 4px;
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    z-index: 2;
+}
+
+#line2 {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.headline-text {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(92, 88, 88);
+}
+
+.headline-text-sm {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(124, 122, 122);
+}
+
+.welcome-text h3 {
+    font-size: 1.5rem;
+    color: rgb(110, 109, 109);
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.pos-rel {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+/* Middle left text */
+
+.middle-left {
+    position: absolute;
+    bottom: 235px;
+    left: 30px;
+    font-size: 2rem;
+}
+
+/* Middle left text */
+
+.bottom-left {
+    width: 85%;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    font-size: 0.9rem;
+}
+
+/* Middle left text smaller */
+
+.middle-left-sm {
+    position: absolute;
+    bottom: 110px;
+    left: 40px;
+    font-size: 1rem;
+}
+
+/* Middle left text smaller */
+
+.bottom-left-sm {
+    width: 75%;
+    position: absolute;
+    bottom: 9px;
+    left: 40px;
+    font-size: 0.6rem;
+}
+
+.row {}
+
+.photo-image {
+    width: 100%;
+}
+
+.photo-image2 {
+    width: 100%;
+}
+
+.content2 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content2 p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    height: 110px;
+}
+
+.advertise {
+    background: rgb(245, 244, 242);
+}
+
+.advertise p {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: -85px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.color-blk {
+    width: 70%;
+    color: rgb(249, 249, 252);
+    font-weight: bolder;
+}
+
+.bottom-content {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 1189px) {
+    .signin {
+        display: none;
+    }
+    /* Middle left text */
+    .middle-left {
+        position: absolute;
+        bottom: 205px;
+        left: 30px;
+        font-size: 1.5rem;
+    }
+    /* Middle left text */
+    .bottom-left {
+        width: 80%;
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        font-size: 0.9rem;
+    }
+    /* Middle left text smaller */
+    .middle-left-sm {
+        position: absolute;
+        bottom: 65px;
+        left: 40px;
+        font-size: 1rem;
+    }
+    /* Middle left text smaller */
+    .bottom-left-sm {
+        width: 75%;
+        position: absolute;
+        bottom: 10px;
+        left: 40px;
+        font-size: 0.4rem;
+    }
+}
+
+@media (max-width: 770px) {
+    /* Middle left text */
+    .middle-left {
+        position: absolute;
+        bottom: 205px;
+        left: 30px;
+        font-size: 3rem;
+    }
+    /* Middle left text */
+    .bottom-left {
+        width: 80%;
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        font-size: 1.3rem;
+    }
+    /* Middle left text smaller */
+    .middle-left-sm {
+        position: absolute;
+        bottom: 200px;
+        left: 40px;
+        font-size: 2.5rem;
+    }
+    /* Middle left text smaller */
+    .bottom-left-sm {
+        width: 85%;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+        font-size: 1.4rem;
+    }
+    .content2 h4 {
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    .content2 p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        height: 110px;
+    }
+    .pos-rel {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    /* Middle left text */
+    .middle-left {
+        position: absolute;
+        bottom: 170px;
+        left: 30px;
+        font-size: 1.4rem;
+    }
+    /* Middle left text */
+    .bottom-left {
+        width: 80%;
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        font-size: 0.8rem;
+    }
+    /* Middle left text smaller */
+    .middle-left-sm {
+        position: absolute;
+        bottom: 160px;
+        left: 40px;
+        font-size: 1.3rem;
+    }
+    /* Middle left text smaller */
+    .bottom-left-sm {
+        width: 85%;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 2400px) {
+    .signin {
+        min-width: 4vw;
+        border-left: 1px solid white;
+    }
+}
