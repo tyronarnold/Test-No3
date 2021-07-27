@@ -231,6 +231,11 @@ div#line2::before {
     padding-bottom: 80px;
 }
 
+#foot-text {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
 @media (max-width: 1189px) {
     .signin {
         display: none;
